@@ -1,0 +1,79 @@
+
+# -------------------------
+# Python
+# -------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+
+# Virtual environment
+venv/
+env/
+
+# Byte-compiled / optimized / DLL files
+*.so
+*.dll
+
+# -------------------------
+# OAuth Credentials & Tokens
+# -------------------------
+credentials/client_secret.json
+tokens/token.json
+
+# Backup credentials if accidentally created
+credentials/*.json
+tokens/*.json
+
+# -------------------------
+# IDE / Editor Settings
+# -------------------------
+.vscode/
+.idea/
+*.swp
+
+# -------------------------
+# Logs & Runtime Data
+# -------------------------
+*.log
+logs/
+*.sqlite3
+*.db
+*.db-journal
+
+# -------------------------
+# ChromaDB Vector Store
+# -------------------------
+chroma/
+chroma_index/
+chroma_data/
+storage/
+*.bin
+*.pkl
+
+# -------------------------
+# FastAPI & Uvicorn
+# -------------------------
+*.pid
+
+# -------------------------
+# OS Files
+# -------------------------
+.DS_Store
+Thumbs.db
+
+# -------------------------
+# Pytest / Coverage
+# -------------------------
+.coverage
+htmlcov/
+.cache/
+.pytest_cache/
+
+# -------------------------
+# Build Artifacts
+# -------------------------
+dist/
+build/
+*.egg-info/
